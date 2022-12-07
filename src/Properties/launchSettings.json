@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "ders-printer": {
-      "commandName": "Project",
-      "commandLineArgs": "--printer \"microsoft print\" --file-path \"C:\\Users\\flavi\\OneDrive\\Desktop\\PLAN SERVICE - VIOREL (1).pdf\""
-    }
-  }
-}
