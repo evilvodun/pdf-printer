@@ -13,7 +13,7 @@ jobs:
         include:
           - kind: windows
             os: windows-latest
-            target: Portable
+            target: win-x64
     runs-on: ${{ matrix.os }}
     steps:
       - name: Checkout
@@ -35,7 +35,7 @@ jobs:
           dotnet publish src/Ders.Printer.csproj --framework net6.0 --runtime "${{ matrix.target }}" -c Release -o "$release_name"
 
           # Pack files
-          if [ "${{ matrix.target }}" == "Portable" ]; then
+          if [ "${{ matrix.target }}" == "win-x64" ]; then
             7z a -tzip "${release_name}.zip" "./${release_name}/*"
           else
             tar czvf "${release_name}.tar.gz" "$release_name"
