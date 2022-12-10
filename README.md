@@ -20,3 +20,7 @@ Options:
 Ders.Printer.exe --printer [printer-name] --file-path [file-path]
 Ders.Printer.exe --help # for more information
 ```
+
+## IMPORTANT
+
+Requires Reboot after installation
