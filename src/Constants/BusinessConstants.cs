@@ -2,6 +2,6 @@
 
 public static class BusinessConstants
 {
-    public const string LogPath = @"C:\Logs\Kiosk\log.txt";
+    public const string LogPath = @"C:\Logs\log.txt";
 }
 
