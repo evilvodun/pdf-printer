@@ -1,9 +1,9 @@
-# ders-printer
+# pdf-printer
 
 ## Usage
 ```bash
 Description:
-    Select printers for events
+    Select printers and print PDF files from a connected printer
 
 Usage:
     Ders.Printer [options]
